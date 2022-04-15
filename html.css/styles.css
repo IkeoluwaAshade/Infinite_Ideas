@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.MainBg {
+  background-color: lightblue;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.headSection {
+  background-color: #000033;
+  color: #FEFBF3;
+}
+
+
+.topnav {
+  width: 85%;
+  height: 100%;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  border: 5px;
+  margin: 0px 5px 24px 0;
+}
+
+
+
+.topnav a {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 90px;
+}
+
+.A1 {
+  margin: left;
+  padding: 15px 20px 30px 150px;
+  /* max-width: 900px; */
+}
+
+.A1 .btn {
+  margin-top: 30px;
+  padding: 14px 12px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  background: #549da0;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin: 0 0 20px 0px;
+  cursor: pointer;
+}
+
+@keyframes colorchange {
+  0% {background-color: #549da0;}
+  15% {background-color: orange;}
+  30% {background-color: red;}
+  50% {background-color: yellow;}
+  70% {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.btn {
+  animation-name: colorchange;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-play-state: running;
+}
+
+.aboutUs {
+  background-color: inherit;
+  padding: 75px;
+  font-size: 25px;
+  font-weight: 450;
+}
+
+.about-us-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about-us-img .aboutUsPara {
+  margin-top: 25px;
+  padding: 14px 12px;
+}
+
+.sectionThree {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#slider {
+  position: relative;
+}
+
+.Prev {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.Next {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: hidden;
+  font-size: 18px;
+  position: absolute;
+  right: 5px;
+  z-index: 1;
+}
+
+
+
+
+/* FOOTER */
+.topFooter {
+  background-color: #2C272E;
+  color: white;
+  font-weight: 400;
+  width: 100;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+
+.sex {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  background: #549da0;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 0 0 15px 0px;
+  cursor: pointer;
+}
+
+@keyframes colorchange {
+  0% {background-color: #549da0;}
+  15% {background-color: orange;}
+  30% {background-color: red;}
+  50% {background-color: yellow;}
+  70% {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.sex {
+  animation-name: colorchange;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-play-state: running;
+}
+
+/* BOTTOM FOOTER */
+
+.bottomFooter {
+  background-color: #040303;
+}
+
+.footerContainer {
+  color: white;
+  font-weight: 400;
+  width: 100;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: small;
+}
+
+.icons {
+  width: 24px;
+  }
+
+.socials {
+  /* background-color: red; */
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  width: 100%;
+
+
+}
